@@ -46,6 +46,7 @@ namespace _11_Files
             Stock final = new Stock(symb,pps,numS);
 
             return final;
+
         }
     }
 }
