@@ -54,7 +54,7 @@ namespace _11_Files
         }
 
 
-        /*[TestMethod]
+        [TestMethod]
         public void CanWriteToFile()
         {
             FileInfo output = new FileInfo("stockout.txt");
@@ -68,9 +68,9 @@ namespace _11_Files
             }
             finally
             {
-               // output.Delete();
+                output.Delete();
             }
-        }*/
+        }
 
     }
 }

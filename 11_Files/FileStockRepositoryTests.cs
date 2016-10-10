@@ -59,10 +59,9 @@ namespace _11_Files
             Assert.IsTrue(fileYhoo.Exists);
         }
 
-      /*  [TestMethod]
+        [TestMethod]
         public void CanSaveAndLoad()
         {
-            // ASK ALLAN WHATS WRONG WITH THI TEST
             IStockRepository repository = new FileStockRepository(repositoryDir);
             repository.SaveStock(yhoo);
             long id = yhoo.Id;
@@ -85,8 +84,8 @@ namespace _11_Files
             Stock loaded = newRepository.LoadStock(yhoo.Id);
             Assert.AreEqual(120, loaded.NumShares);
         }
-
-      /*  [TestMethod]
+        
+        [TestMethod]
         public void CanClearRepository()
         {
             IStockRepository repository = new FileStockRepository(repositoryDir);
@@ -112,6 +111,6 @@ namespace _11_Files
             repository.SaveStock(hp);
             stocks = repository.FindAllStocks();
             Assert.AreEqual(2, stocks.Count);
-        }*/
+        }
     }
 }
